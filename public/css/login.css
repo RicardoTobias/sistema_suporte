@@ -1,0 +1,13 @@
+html,
+body,
+#login {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../img/bg_login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

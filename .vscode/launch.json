@@ -1,0 +1,121 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:/totvs/TAF/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		},
+		{
+			"type": "totvs_tdsreplay_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"ignoreSourcesNotFound": true,
+			"name": "TDS - Replay test",
+			"tdsReplayFile": "C:\\totvs\\TAF\\bin\\smartclient\\replay_20210831_162605_without_lib.trplay",
+			"password": "",
+			"includeSources": "*.*",
+			"excludeSources": ""
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"name": "TEST",
+			"smartclientBin": "C:\\totvs\\TAF\\bin\\smartclient\\smartclient.exe",
+			"program": "${command:AskForProgramName}",
+			"programArguments": [],
+			"enableMultiThread": false,
+			"enableProfile": false,
+			"isMultiSession": true,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"openglMode": false,
+			"dpiMode": false,
+			"language": "",
+			"ignoreFiles": false,
+			"enableTableSync": true
+		},
+		{
+			"type": "totvs_tdsreplay_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"ignoreSourcesNotFound": true,
+			"name": "Test Replay",
+			"tdsReplayFile": "C:\\totvs\\TAF\\bin\\smartclient\\replay_20210831_162605_without_lib.trplay",
+			"password": "",
+			"includeSources": "*",
+			"excludeSources": ""
+		},
+		{
+			"type": "totvs_tdsreplay_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"ignoreSourcesNotFound": true,
+			"name": "",
+			"tdsReplayFile": "",
+			"password": "",
+			"includeSources": "*",
+			"excludeSources": ""
+		},
+		{
+			"type": "totvs_tdsreplay_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"ignoreSourcesNotFound": true,
+			"name": "Novo teste",
+			"tdsReplayFile": "C:\\totvs\\TAF\\bin\\smartclient\\replay_20210831_162605_without_lib.trplay",
+			"password": "",
+			"includeSources": "*",
+			"excludeSources": "FW*.*,MATA010*.*"
+		},
+		{
+			"type": "totvs_tdsreplay_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"ignoreSourcesNotFound": true,
+			"name": "Admissao Teste",
+			"tdsReplayFile": "C:\\Debug\\replay_20210901_181509_without_lib.trplay",
+			"password": "",
+			"includeSources": "*",
+			"excludeSources": ""
+		},
+		{
+			"type": "totvs_tdsreplay_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"ignoreSourcesNotFound": true,
+			"name": "TESTE_1005",
+			"tdsReplayFile": "C:\\Debug\\replay_20210902_113501_with_lib.trplay",
+			"password": "",
+			"includeSources": "*",
+			"excludeSources": ""
+		}
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "TAF",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGATAF",
+			"description": ""
+		},
+		{
+			"label": "SIGATAF",
+			"description": "<nil>"
+		},
+		{
+			"label": "APSDU",
+			"description": "<nil>"
+		}
+	],
+	"lastProgramExecuted": "APSDU"
+}
