@@ -66,15 +66,24 @@ class AgrupadorRotinas extends CI_Controller
 
             // Estilo da página
             'styles' => array(
+
+                // Carregando as configurações do DataTable
                 'public/vendor/datatables/dataTables.bootstrap4.min.css',
+                
+                //
                 'public/css/index.css'
+                
             ),
 
             // Scripts da página
             'scripts' => array(
+                
+                // Carregando as configurações do DataTable
                 'public/vendor/datatables/jquery.dataTables.min.js',
                 'public/vendor/datatables/dataTables.bootstrap4.min.js',
-                'public/js/demo/datatables-demo.js'
+
+                // Chamando a função dataTable 
+                'public/js/dataTable.js',
             ),
 
             'alert' => array(

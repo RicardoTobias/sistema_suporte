@@ -77,7 +77,7 @@
         <div class="card-body">
             <div class="table-responsive">
 
-                <table class="table table-hover table-sm dataTable">
+                <table class="table table-hover table-sm dataTable display">
 
                     <thead>
                         <tr>
